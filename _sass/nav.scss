@@ -12,7 +12,7 @@
 	perspective-origin: 50% 200%;
 	@media #{$notsmall} {
 		position: fixed;
-		max-width: 175px;
+		max-width: 210px;
 		top: 25px;
 		left: 25px;
 	}
@@ -125,7 +125,7 @@
 		margin: 0;
 		position: absolute;
 		width: 100%;
-		max-width: 500px;
+		max-width: 450px;
 		overflow-y: auto;
 		max-height: 600px;
 		opacity: 0;
