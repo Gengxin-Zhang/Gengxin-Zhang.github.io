@@ -1,6 +1,6 @@
 ---
 layout: mine
 tittle: Mine
-excerpt: "我的空间"
+excerpt: "Mine"
 comments: false
 ---
