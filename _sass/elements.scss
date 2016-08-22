@@ -105,9 +105,10 @@ hr {
 }
 
 // images and figures
+/*
 img {
     display: block;
-	max-width: 80%;
+	  max-width: 100%;
     width: auto;
     height: auto;
     vertical-align: middle;
@@ -117,6 +118,7 @@ img {
     -ms-interpolation-mode: bicubic;
     image-rendering: optimizeQuality;
 }
+*/
 .img-circle {
 	border-radius: 50%;
 	border: 3px solid $white;
