@@ -105,8 +105,8 @@ hr {
 }
 
 // images and figures
-/*
-img {
+
+.wtf-img {
     display: block;
 	  max-width: 100%;
     width: auto;
@@ -118,7 +118,7 @@ img {
     -ms-interpolation-mode: bicubic;
     image-rendering: optimizeQuality;
 }
-*/
+
 .img-circle {
 	border-radius: 50%;
 	border: 3px solid $white;
@@ -132,6 +132,14 @@ img {
 		background-color: $white;
 		white: 120px;
 		height: 120px;
+		vertical-align: middle;
+    margin-left: auto;
+    margin-right: auto;
+    border: 0;
+    -ms-interpolation-mode: bicubic;
+    image-rendering: optimizeQuality;
+		border-radius:50%;
+		border:5px solid #D0D0D0;
 }
 .image-right {
     float: right;

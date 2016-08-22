@@ -1,6 +1,6 @@
 ---
 layout: mine
 title: Mine
-excerpt: "Mine"
+excerpt: "我的小世界"
 comments: false
 ---
