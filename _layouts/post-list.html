@@ -26,12 +26,14 @@ layout: compress
                         {% if post.project == null %}
                     <ul>
                         <li class="wow fadeInLeft" data-wow-duration="1.5s">
-                          {% if post.image %}
-                          <img src="{{ post.image }}" alt="{{ post.title }}" width="100%" height="150px">
-                          {% endif %}
-                            <a class="zoombtn" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
-                            <p>{{ post.excerpt }}</p>
-                            <a href="{{ site.url }}{{ post.url }}" class="btn zoombtn">Read More</a>
+                            {% if post.image %}
+                            <a href="{{ site.url }}{{ post.url }}">
+                              <img src="{{ post.image }}" alt="{{ post.title }}" width="100%" height="150px">
+                            </a>
+                            {% endif %}
+                              <a class="zoombtn" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
+                              <p >{{ post.excerpt }}</p>
+                              <a href="{{ site.url }}{{ post.url }}" class="btn zoombtn">Read More</a>
                         </li>
                     </ul>
                         {% endif %}
