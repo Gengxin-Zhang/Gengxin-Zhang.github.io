@@ -1,6 +1,6 @@
 ---
 layout: mine
-tittle: Mine
+title: Mine
 excerpt: "Mine"
 comments: false
 ---
