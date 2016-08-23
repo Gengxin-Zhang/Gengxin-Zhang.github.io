@@ -24,7 +24,7 @@ layout: compress
                 <div class="post-list">
                     {% for post in site.posts %}
                         {% if post.project == null %}
-                    <ul>
+                    <div>
                         <li class="wow fadeInLeft" data-wow-duration="1.5s" style="border:1px solid #C8C8C8;">
                             {% if post.image %}
                             <!-- title Image -->
@@ -36,7 +36,7 @@ layout: compress
                               <p >{{ post.excerpt }}</p>
                               <a href="{{ site.url }}{{ post.url }}" class="btn zoombtn">Read More</a>
                         </li>
-                    </ul>
+                    </div>
                         {% endif %}
                     {% endfor %}
                 </div>
