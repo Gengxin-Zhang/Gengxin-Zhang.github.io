@@ -1,12 +1,12 @@
-	<nav id="dl-menu" class="dl-menuwrapper" role="navigation" scroll="no">
+	<nav id="dl-menu" class="dl-menuwrapper" role="navigation">
 		<button class="dl-trigger">Open Menu</button>
-		<ul class="dl-menu" scroll="no">
+		<ul class="dl-menu" scroll="no" style="overflow:hidden">
 			<li class="shake-slow"><a href="{{ site.url }}/">Home</a></li>
 			<li>
 				<a href="#" class="shake-slow">About</a>
-				<ul class="dl-submenu"  scroll="no">
+				<ul class="dl-submenu"  scroll="no" style="overflow:hidden">
 					<li>
-							<img src="{{ site.url }}/{{ site.logo }}" alt="{{ site.title }} photo" class="shake-slow menu-photo" >
+							<img src="{{ site.url }}/{{ site.logo }}" alt="{{ site.title }} photo" class=" menu-photo" >
 						<a href="{{ site.url }}/about/">
 							<h2>{{ site.title }}</h2>
 							{{ site.description }}
@@ -93,7 +93,7 @@
 			</li>
 			<li>
 				<a href="#" class="shake-slow">Posts</a>
-				<ul class="dl-submenu" scroll="no">
+				<ul class="dl-submenu" scroll="no" style="overflow:hidden">
 					<li class="shake-slow"><a href="{{ site.url }}/posts/">All Posts</a></li>
 					<li class="shake-slow"><a href="{{ site.url }}/tags/">All Tags</a></li>
 					<li class="shake-slow"><a href="{{ site.url }}/mine/">Mine</a></li>
