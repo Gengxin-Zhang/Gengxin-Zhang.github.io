@@ -1,13 +1,13 @@
 ---
 layout: post
 title: "Gengxin's First Test"
-image: {{ site.url }}/image/AM4.jpg
-date: 2016-08-23
+date:   2016-08-23
 excerpt: "Go on."
 tag:
 - test
 comments: true
-mine:    true
+mine: true
+image: "{{ site.url }}/image/post.png"
 ---
 
 [Test Image]({{ site.url }}/image/post.png)
