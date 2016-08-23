@@ -7,7 +7,7 @@ tag:
 - test
 comments: true
 mine: true
-image: "{{ site.url }}/image/post.png"
+image: "http://zhangone.top/image/post.png"
 ---
 
 [Test Image]({{ site.url }}/image/post.png)
