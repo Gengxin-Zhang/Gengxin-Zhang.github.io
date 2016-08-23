@@ -1,11 +1,11 @@
 	<nav id="dl-menu" class="dl-menuwrapper" role="navigation">
 		<button class="dl-trigger">Open Menu</button>
 		<ul class="dl-menu">
-			<li><a href="{{ site.url }}/">Home</a></li>
-			<li>
+			<li class="shake-slow"><a href="{{ site.url }}/">Home</a></li>
+			<li class="shake-slow">
 				<a href="#">About</a>
 				<ul class="dl-submenu">
-					<li>
+					<li class="shake-slow">
 						<img src="{{ site.url }}/{{ site.logo }}" alt="{{ site.title }} photo" class="menu-photo" >
 
 						<a href="{{ site.url }}/about/">
@@ -15,89 +15,89 @@
 					</li>
 					<!--li><a href="{{ site.url }}/about/"><span class="btn btn-inverse">Learn More</span></a></li-->
 					<li class="shake-slow"><a href="mailto:{{ zhgx3ng@outlook.com }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-envelope-square"></i> Email</a></li>
-					{% if site.email %}<li>
+					{% if site.email %}<li class="shake-slow">
                         <a href="mailto:{{ site.email }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-envelope-square"></i> Email</a>
                     </li>{% endif %}
-                    {% if site.twitter %}<li>
+                    {% if site.twitter %}<li class="shake-slow">
                         <a href="http://twitter.com/{{ site.twitter }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-twitter-square"></i> Twitter</a>
                     </li>{% endif %}
-                    {% if site.facebook %}<li>
+                    {% if site.facebook %}<li class="shake-slow">
                         <a href="http://facebook.com/{{ site.facebook }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-facebook-square"></i> Facebook</a>
                     </li>{% endif %}
-                    {% if site.google.plus %}<li>
+                    {% if site.google.plus %}<li class="shake-slow">
                         <a href="http://plus.google.com/+{{ site.google.plus }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-google-plus-square"></i> Google+</a>
                     </li>{% endif %}
-                    {% if site.linkedin %}<li>
+                    {% if site.linkedin %}<li class="shake-slow">
                         <a href="http://linkedin.com/in/{{ site.linkedin }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-linkedin-square"></i> LinkedIn</a>
                     </li>{% endif %}
-                    {% if site.xing %}<li>
+                    {% if site.xing %}<li class="shake-slow">
                         <a href="http://www.xing.com/profile/{{ site.xing }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-xing-square"></i> Xing</a>
                     </li>{% endif %}
-                    {% if site.instagram %}<li>
+                    {% if site.instagram %}<li class="shake-slow">
                         <a href="http://instagram.com/{{ site.instagram }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-instagram"></i> Instagram</a>
                     </li>{% endif %}
-                    {% if site.tumblr %}<li>
+                    {% if site.tumblr %}<li class="shake-slow">
                         <a href="http://{{ site.tumblr }}.tumblr.com" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-tumblr-square"></i> Tumblr</a>
                     </li>{% endif %}
-                    {% if site.github %}<li>
+                    {% if site.github %}<li class="shake-slow">
                         <a href="http://github.com/{{ site.github }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-github"></i> Github</a>
                     </li>{% endif %}
-                    {% if site.stackoverflow %}<li>
+                    {% if site.stackoverflow %}<li class="shake-slow">
                         <a href="http://stackoverflow.com/users/{{ site.stackoverflow }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-stack-overflow"></i> StackOverflow</a>
                     </li>{% endif %}
-                    {% if site.lastfm %}<li>
+                    {% if site.lastfm %}<li class="shake-slow">
                         <a href="http://lastfm.com/user/{{ site.lastfm }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-music"></i> LastFm</a>
                     </li>{% endif %}
-                    {% if site.dribbble %}<li>
+                    {% if site.dribbble %}<li class="shake-slow">
                         <a href="http://dribbble.com/{{ site.dribbble }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-dribbble"></i> Dribble</a>
                     </li>{% endif %}
-                    {% if site.pinterest %}<li>
+                    {% if site.pinterest %}<li class="shake-slow">
                         <a href="http://www.pinterest.com/{{ site.pinterest }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-pinterest"></i> Pinterest</a>
                     </li>{% endif %}
-                    {% if site.foursquare %}<li>
+                    {% if site.foursquare %}<li class="shake-slow">
                         <a href="http://foursquare.com/{{ site.foursquare }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-foursquare"></i> Foursquare</a>
                     </li>{% endif %}
-                    {% if site.steam %}<li>
+                    {% if site.steam %}<li class="shake-slow">
                         <a href="http://steamcommunity.com/id/{{ site.steam }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-steam-square"></i> Steam</a>
                     </li>{% endif %}
-                    {% if site.youtube %}<li>
+                    {% if site.youtube %}<li class="shake-slow">
                         <a href="https://youtube.com/user/{{ site.youtube }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-youtube-square"></i> Youtube</a>
                     </li>{% endif %}
-                    {% if site.soundcloud %}<li>
+                    {% if site.soundcloud %}<li class="shake-slow">
                         <a href="http://soundcloud.com/{{ site.soundcloud }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-soundcloud"></i> SoundCloud</a>
                     </li>{% endif %}
-                    {% if site.weibo %}<li>
+                    {% if site.weibo %}<li class="shake-slow">
                         <a href="http://www.weibo.com/{{ site.weibo }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-weibo"></i> Weibo</a>
                     </li>{% endif %}
-                    {% if site.flickr %}<li>
+                    {% if site.flickr %}<li class="shake-slow">
                         <a href="http://www.flickr.com/{{ site.flickr }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-flickr"></i> Flickr</a>
                     </li>{% endif %}
-                    {% if site.codepen %}<li>
+                    {% if site.codepen %}<li class="shake-slow">
                         <a href="http://codepen.io/{{ site.codepen }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-codepen"></i> Codepen</a>
                     </li>{% endif %}
-                    {% if site.keybase %}<li>
+                    {% if site.keybase %}<li class="shake-slow">
                         <a href="https://keybase.io/{{ site.keybase }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-key"></i> Keybase</a>
                     </li>{% endif %}
-                    {% if site.xmpp %}<li>
+                    {% if site.xmpp %}<li class="shake-slow">
                         <a href="xmpp:{{ site.xmpp }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-lightbulb-o"></i> XMPP</a>
                     </li>{% endif %}
-                    {% if site.hackernews %}<li>
+                    {% if site.hackernews %}<li class="shake-slow">
                         <a href="https://news.ycombinator.com/user?id={{ site.hackernews }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-hacker-news"></i> Hacker News</a>
                     </li>{% endif %}
-										{% if site.bilibili %}<li>
+										{% if site.bilibili %}<li class="shake-slow">
 												<a href="http://space.bilibili.com/{{ site.bilibili }}/#!/index" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-fw"><img src="{{ site.url }}/image/bilibili2.ico" class="wtf-img"></i> Bilibili</a>
 										</li>{% endif %}
-										{% if site.zhihu %}<li>
+										{% if site.zhihu %}<li class="shake-slow">
 												<a href="https://www.zhihu.com/people/{{ site.zhihu }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-fw"><img src="{{ site.url }}/image/zhihu2.ico" class="wtf-img"></i> Zhihu</a>
 										</li>{% endif %}
 				</ul><!-- /.dl-submenu -->
 			</li>
-			<li>
+			<li class="shake-slow">
 				<a href="#">Posts</a>
 				<ul class="dl-submenu">
-					<li><a href="{{ site.url }}/posts/">All Posts</a></li>
-					<li><a href="{{ site.url }}/tags/">All Tags</a></li>
-					<li><a href="{{ site.url }}/mine/">Mine</a></li>
+					<li class="shake-slow"><a href="{{ site.url }}/posts/">All Posts</a></li>
+					<li class="shake-slow"><a href="{{ site.url }}/tags/">All Tags</a></li>
+					<li class="shake-slow"><a href="{{ site.url }}/mine/">Mine</a></li>
 				</ul>
 			</li>
 			{% for link in site.data.navigation %}
@@ -106,7 +106,7 @@
 		        {% else %}
 		        {% assign domain = site.url %}
 		    {% endif %}
-		    <li><a href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %}target="_blank" rel="noopener noreferrer"{% endif %}>{{ link.title }}</a></li>
+		    <li class="shake-slow"><a href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %}target="_blank" rel="noopener noreferrer"{% endif %}>{{ link.title }}</a></li>
 		  {% endfor %}
 		</ul><!-- /.dl-menu -->
 	</nav><!-- /.dl-menuwrapper -->
