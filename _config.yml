@@ -6,9 +6,9 @@ reading_time:       true
 words_per_minute:   200
 logo:               'assets/img/logo.png'
 default_background: true
-background:         'image/AM1.jpg'
-about_background:   'image/AM4.jpg'
-page_background:    'image/AM2.jpg'
+background:         'http://images2015.cnblogs.com/blog/831801/201608/831801-20160825075014964-599537189.jpg'
+about_background:   'http://images2015.cnblogs.com/blog/831801/201608/831801-20160825075031480-252502873.jpg'
+page_background:    'http://images2015.cnblogs.com/blog/831801/201608/831801-20160825075021808-1917501777.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
 url:                http://zhangone.top
