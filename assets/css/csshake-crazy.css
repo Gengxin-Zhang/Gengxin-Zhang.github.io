@@ -1,4 +1,4 @@
-/* * * * * * * * * * * * * * * * * * * * *\  
+/* * * * * * * * * * * * * * * * * * * * *\
   CSShake :: shake-crazy
   v1.5.0
   CSS classes to move your DOM
@@ -7,7 +7,7 @@
   Licensed under MIT
 \* * * * * * * * * * * * * * * * * * * * */
 .shake-crazy {
-  display: inline-block;
+  display: block;
   transform-origin: center center; }
 
 .shake-freeze,
