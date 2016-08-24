@@ -14,16 +14,17 @@ image: "http://zhangone.top/image/post.png"
 
 <button class="btn shake shake-slow"> Test </button>
 
-# This is a test
-## This is a test
-### This is a test
+# This is a test  
+## This is a test  
+### This is a test  
 this is a test.  
 just a test
-~~~
-This is a test
-~~~
+
+~~~   
+This is a test   
+~~~   
 <div markdown="0"><a href="#" class="btn">This is a Test</a></div>
 
-<kbd>T</kbd><kbd>h</kbd><kbd>i</kbd><kbd>s</kbd><kbd> </kbd><kbd>a</kbd><kbd> </kbd><kbd>t</kbd><kbd>e</kbd><kbd>s</kbd><kbd>t</kbd>  
+<kbd>T</kbd><kbd>h</kbd><kbd>i</kbd><kbd>s</kbd><kbd>-</kbd><kbd>a</kbd><kbd>-</kbd><kbd>t</kbd><kbd>e</kbd><kbd>s</kbd><kbd>t</kbd>  
 **This is a test**  
 `This is a test`
