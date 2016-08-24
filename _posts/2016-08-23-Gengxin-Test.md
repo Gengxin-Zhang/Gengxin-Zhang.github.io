@@ -87,8 +87,7 @@ plt.axis("off")
 plt.show()
 wc.recolor(color_func=image_colors).to_image().save("3.jpg")
 wordcloud.to_image().save("4.jpg")
-
-{% highlight %}
+{% endhighlight %}
 
 <kbd>T</kbd><kbd>h</kbd><kbd>i</kbd><kbd>s</kbd><kbd>-</kbd><kbd>a</kbd><kbd>-</kbd><kbd>t</kbd><kbd>e</kbd><kbd>s</kbd><kbd>t</kbd>  
 **This is a test**  
