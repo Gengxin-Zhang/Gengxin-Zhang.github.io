@@ -10,7 +10,7 @@ mine: true
 image: "http://zhangone.top/image/post.png"
 ---
 
-[Test Image](http://zhangone.top/image/post.png)
+![Test Image](http://zhangone.top/image/post.png)
 
 <button class="btn shake shake-slow"> Test </button>
 
