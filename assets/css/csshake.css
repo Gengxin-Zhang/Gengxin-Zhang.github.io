@@ -7,7 +7,7 @@
   Licensed under MIT
 \* * * * * * * * * * * * * * * * * * * * */
 .shake, .shake-little, .shake-slow, .shake-hard, .shake-horizontal, .shake-vertical, .shake-rotate, .shake-opacity, .shake-crazy, .shake-chunk {
-  display: block;
+  display: inline-block;
   transform-origin: center center; }
 
 .shake-freeze,
