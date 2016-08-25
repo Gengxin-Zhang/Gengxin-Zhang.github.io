@@ -7,7 +7,7 @@ tag:
 - test
 comments: true
 mine: true
-image: "http://zhangone.top/image/post.png"
+image: "http://images2015.cnblogs.com/blog/831801/201608/831801-20160825080336089-1712076279.png"
 ---
 
 ![Test Image](http://zhangone.top/image/post.png)
