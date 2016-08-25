@@ -1,6 +1,6 @@
 // content area
 .content {
-	@include font-size(25);
+	@include font-size(14);
 	padding: 0 0;
 	-moz-osx-font-smoothing: grayscale;
 	-webkit-font-smoothing: antialiased !important;
@@ -8,7 +8,7 @@
 	text-rendering: optimizelegibility !important;
 	text-align: justify;
 	@media #{$small} {
-		padding: 0 .5em;
+		padding: 0 0em;
 	}
 }
 
@@ -29,6 +29,7 @@
 	text-align: center;
 	font-weight: bold;
 	margin-bottom: 3rem;
+	padding-left: 5rem;
 }
 
 // headings
@@ -62,6 +63,7 @@ h3.title a {
 		p {
 			font-weight: lighter;
 			@include font-rem(16);
+			padding-left: 10rem
 		}
 	}
 }
@@ -70,13 +72,13 @@ h3.title a {
 blockquote {
 	font-family:$alt-font;
 	font-style:italic;
-	border-left:8px solid $color_tundora;
+	border-left:0px solid $color_tundora;
 	padding-left:0px;
 	margin: 0;
 }
 @media only screen and (min-width: 0em) {
 	blockquote {
-		margin-left:-28px
+		margin-left:0px
 	}
 }
 
