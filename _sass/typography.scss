@@ -45,23 +45,25 @@ h3.title a {
 		padding-left: 0;
 	}
 	li {
-		padding: 10px 18px;
+		padding: 10px ;
 		margin: 0 10px;
 		text-decoration: none;
 		background: $white;
 		color: $color_shark;
 		a {
-			@include font-rem(20);
+			@include font-rem(22);
 			text-decoration: none;
 			color: $color_shark;
+			padding: 0,1rem;
 			font-weight: bolder;
             &:hover {
                 color: $red;
             }
 		}
 		p {
+			padding: 0,2rem;
 			font-weight: lighter;
-			@include font-rem(16);
+			@include font-rem(18);
 		}
 	}
 }
@@ -76,7 +78,7 @@ blockquote {
 }
 @media only screen and (min-width: 48em) {
 	blockquote {
-		margin-left:-28px
+		margin-left:0px
 	}
 }
 
@@ -119,8 +121,8 @@ li pre {
     background-color: $color_gray;
     border: 1px solid $color_mischka;
     @include rounded(4px);
-    margin: 0 2px;
-    padding: 0 5px;
+    margin: 0 0px;
+    padding: 0 0px;
 }
 li .highlight code,
 li .highlight pre {
@@ -136,7 +138,7 @@ table {
 // notice
 .notice {
     margin-top: 1.5em;
-    padding: .5em 1em;
+    padding: .5em 0em;
     text-indent: 0;
     @include font-rem(14);
     background-color: $color_gray;
