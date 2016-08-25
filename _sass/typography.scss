@@ -52,10 +52,10 @@ h3.title a {
 		background: $white;
 		color: $color_shark;
 		a {
-			@include font-rem(20);
+			@include font-rem(22);
 			text-decoration: none;
 			color: $color_shark;
-			padding-left: 1;
+			padding-left: 1rem;
 			font-weight: bolder;
             &:hover {
                 color: $red;
@@ -63,7 +63,7 @@ h3.title a {
 		}
 		p {
 			font-weight: lighter;
-			@include font-rem(16);
+			@include font-rem(18);
 			padding-left: 3rem;
 		}
 	}
