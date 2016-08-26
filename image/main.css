@@ -301,6 +301,16 @@ body {
 		box-shadow:none
 	}
 }
+.entry-zls {
+	font-size:12px;
+	font-size:.75rem;
+	text-transform:uppercase;
+	color:#d1d1d1;
+	padding-left:0
+}
+.entry-zls a {
+	color: #d1d1d1;
+}
 .entry-meta {
 	font-size:12px;
 	font-size:.75rem;
