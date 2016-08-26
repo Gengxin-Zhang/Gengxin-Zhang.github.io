@@ -139,11 +139,8 @@ body {
 	text-align: center;
 	color: lighten($color_tuatara,60);
 	padding-left: 0;
-	a {
-		color: lighten($color_tuatara,60);
-	}
 	a:hover{
-		color: lighten(#383838, 60);
+		color: #FF0000;
 	}
 }
 .entry-meta {
