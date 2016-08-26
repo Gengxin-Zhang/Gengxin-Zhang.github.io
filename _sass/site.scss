@@ -142,6 +142,9 @@ body {
 	a {
 		color: lighten($color_tuatara,60);
 	}
+	a:hover{
+		color: lighten($383838, 60)
+	}
 }
 .entry-meta {
 	@include font-rem(12);
