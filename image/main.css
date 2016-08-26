@@ -311,6 +311,9 @@ body {
 .entry-zls a {
 	color: #d1d1d1;
 }
+.entry-zls a:hover{
+	color: #FF0000;
+}
 .entry-meta {
 	font-size:12px;
 	font-size:.75rem;
