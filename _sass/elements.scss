@@ -240,11 +240,7 @@ kbd {
 	padding:0px;
 	margin:0px;
 	color: lighten(#383838,60);
-}
-.zls-text {
-	font-size:.75rem;
-	text-transform:uppercase;
-
-	padding-left:0;
-	color: lighten(#383838,60);
+	a {
+		color: lighten(#383838,60);
+	}
 }
