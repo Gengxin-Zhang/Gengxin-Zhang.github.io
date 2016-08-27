@@ -12,8 +12,8 @@
   overflow: hidden;
   background: #fff;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
-  margin: 30px auto;
-  width: 352px;
+  margin: auto auto;
+  width: 100%;
 }
 .jAudio--player:after {
   content: " ";
@@ -29,7 +29,7 @@
   width: 100%;
   z-index: 1;
   position: relative;
-  padding: 100px 2rem 2rem 2rem;
+  /*padding: 100px 2rem 2rem 2rem;*/
   display: table;
 }
 .jAudio--player .jAudio--status-bar:after {
