@@ -1,4 +1,4 @@
-* {
+/** {
   padding: 0;
   margin: 0;
   font-weight: 300;
@@ -26,7 +26,7 @@ body {
 html {
   background: #383B44;
 }
-
+*/
 .jAudio--player {
   display: table;
   overflow: hidden;
