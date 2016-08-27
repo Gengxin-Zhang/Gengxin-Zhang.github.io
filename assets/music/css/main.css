@@ -8,25 +8,12 @@
   color: #888;
   outline: none;
 }
-
-li {
+*/
+.m-li {
   float: left;
   list-style: none;
 }
 
-html {
-  font-size: 100%;
-  font-size: 14px;
-}
-
-body {
-  font-size: 1rem;
-}
-
-html {
-  background: #383B44;
-}
-*/
 .jAudio--player {
   display: table;
   overflow: hidden;
