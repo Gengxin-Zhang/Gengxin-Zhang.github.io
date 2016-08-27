@@ -3,7 +3,6 @@
   margin: 0;
   font-weight: 300;
   box-sizing: border-box;
-  font-family: "Open Sans";
   font-weight: 300;
   color: #888;
   outline: none;
@@ -12,6 +11,11 @@
 .m-li {
   float: left;
   list-style: none;
+  box-sizing: border-box;
+  color: #888;
+  outline: none;
+  padding: 0;
+  margin: 0;
 }
 
 .jAudio--player {
