@@ -5,9 +5,11 @@ layout: compress
 <!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8"><![endif]-->
 <!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9"><![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"><!--<![endif]-->
+<!--[if gt IE 8]><!--><html class="no-js"><!--<![endif]-->
 <head>
     {% include head.html %}
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="{{ site.url }}/assets/music/css/main.css">
 </head>
 <body>
@@ -44,8 +46,7 @@ layout: compress
                       </div>
                     </div>
                   </div>
-                  <div class='jAudio--playlist'>
-                  </div>
+                  <div class='jAudio--playlist'></div>
                   <div class='jAudio--controls'>
                     <ul>
                       <li class="m-li"><button class='m-btn' data-action='prev' id='btn-prev'><span></span></button></li>
@@ -87,9 +88,8 @@ layout: compress
                 </script>
               </div>
             </div>
-          </div>
         </div>
-      </header>
+    </header>
     {% include scripts.html %}
     <script src="{{ site.url }}/assets/js/wow.min.js"></script>
     <script type="text/javascript">(new WOW).init();</script>
