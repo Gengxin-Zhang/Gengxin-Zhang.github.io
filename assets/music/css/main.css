@@ -29,7 +29,7 @@
   width: 100%;
   z-index: 1;
   position: relative;
-  /*padding: 100px 2rem 2rem 2rem;*/
+  padding: 100px 2rem 2rem 2rem;
   display: table;
 }
 .jAudio--player .jAudio--status-bar:after {
