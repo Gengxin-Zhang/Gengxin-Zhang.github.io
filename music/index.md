@@ -38,7 +38,7 @@ musics: [
 ### 您可移步：
 
 #### 网易云音乐：
-<a href="http://music.163.com/"></a>
+<a href="http://music.163.com/"><img href=""></a>
 
 #### QQ音乐：
-<a href="http://y.qq.com/"></a>
+<a href="http://y.qq.com/"><img href"http://y.qq.com/portal/logo.png"></a>
