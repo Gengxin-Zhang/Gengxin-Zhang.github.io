@@ -1,7 +1,7 @@
 ---
 layout: music
 title: music
-excerpt: "Gengxin的收藏"
+excerpt: "少女祈祷中"
 comments: false
 musics: [
 {
@@ -27,3 +27,14 @@ musics: [
 }
 ]
 ---
+![少女祈祷中](https://static.mengniang.org/common/c/cd/1006211942780b1920529f2816.gif)
+# 功能开发中……
+看官老爷们不要急，音乐马上就来
+
+### 您可移步：
+
+#### 网易云音乐：
+<a href="http://music.163.com/"></a>
+
+#### QQ音乐：
+<a href="http://y.qq.com/"></a>
