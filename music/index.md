@@ -41,4 +41,4 @@ musics: [
 <a href="http://music.163.com/"><img href=""></a>
 
 #### QQ音乐：
-<a href="http://y.qq.com/"><img href"http://y.qq.com/portal/logo.png"></a>
+<a href="http://y.qq.com/"><img href="http://y.qq.com/portal/logo.png"></a>
