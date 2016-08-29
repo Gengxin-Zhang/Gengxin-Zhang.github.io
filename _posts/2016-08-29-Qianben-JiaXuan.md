@@ -3,6 +3,7 @@ layout: post
 tag:
 - mine
 title: "千本稼轩"
+title2: "38级毕业生致敬母校"
 excerpt: "38级毕业生致敬母校"
 mine: true
 comments: true
