@@ -37,8 +37,6 @@ musics: [
 
 ### 您可移步：
 
-#### 网易云音乐：
-<a href="http://music.163.com/"><img href="{{ site.url }}/image/qqmusic.jpg"></a>
+<h4 href="http://music.163.com/">网易云音乐</h4>
 
-#### QQ音乐：
-<a href="http://y.qq.com/"><img href="{{ site.url }}/image/neteasemusic.jpg"></a>
+<h4 href="http://y.qq.com/">QQ音乐</h4>
