@@ -27,7 +27,9 @@ musics: [
 }
 ]
 ---
-![少女祈祷中](https://static.mengniang.org/common/c/cd/1006211942780b1920529f2816.gif)
+
+<a style="width:100%; height:100%; margin: 0;"><img href="https://static.mengniang.org/common/c/cd/1006211942780b1920529f2816.gif"></a>
+
 # 功能开发中……
 看官老爷们不要急，音乐马上就来
 
