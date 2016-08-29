@@ -37,6 +37,6 @@ musics: [
 
 ### 您可移步：
 
-<h4>网易云音乐<a  href="http://music.163.com/"></a></h4>
+<h4> <a class="zoombtn" href="http://music.163.com/"> <p > 网易云音乐 </p> </a></h4>
 
-<h4 href="http://y.qq.com/">QQ音乐</h4>
+<h4> <a class="zoombtn" href="http://y.qq.com/"> <p > QQ音乐 </p> </a></h4>
