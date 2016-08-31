@@ -2,6 +2,24 @@
 		<button class="dl-trigger">Open Menu</button>
 		<ul class="dl-menu" scroll="no" style="overflow:hidden">
 			<li class="shake-slow"><a href="{{ site.url }}/">Home</a></li>
+
+			<li>
+				<a href="#" class="shake-slow">Posts</a>
+				<ul class="dl-submenu" scroll="no" style="overflow:hidden">
+					<li class="shake-slow"><a href="{{ site.url }}/posts/">All Posts</a></li>
+					<li class="shake-slow"><a href="{{ site.url }}/tags/">All Tags</a></li>
+					<li class="shake-slow"><a href="{{ site.url }}/mine/">Mine</a></li>
+				</ul>
+			</li>
+			<li class="shake-slow"><a href="{{ site.url }}/music">Music</a></li>
+			{% for link in site.data.navigation %}
+		    {% if link.url contains 'http' %}
+		        {% assign domain = '' %}
+		        {% else %}
+		        {% assign domain = site.url %}
+		    {% endif %}
+		    <li class="shake-slow"><a href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %}target="_blank" rel="noopener noreferrer"{% endif %}>{{ link.title }}</a></li>
+		  {% endfor %}
 			<li>
 				<a href="#" class="shake-slow">About</a>
 				<ul class="dl-submenu"  scroll="no" style="overflow:hidden">
@@ -91,22 +109,5 @@
 										</li>{% endif %}
 				</ul><!-- /.dl-submenu -->
 			</li>
-			<li>
-				<a href="#" class="shake-slow">Posts</a>
-				<ul class="dl-submenu" scroll="no" style="overflow:hidden">
-					<li class="shake-slow"><a href="{{ site.url }}/posts/">All Posts</a></li>
-					<li class="shake-slow"><a href="{{ site.url }}/tags/">All Tags</a></li>
-					<li class="shake-slow"><a href="{{ site.url }}/mine/">Mine</a></li>
-				</ul>
-			</li>
-			<li class="shake-slow"><a href="{{ site.url }}/music">Music</a></li>
-			{% for link in site.data.navigation %}
-		    {% if link.url contains 'http' %}
-		        {% assign domain = '' %}
-		        {% else %}
-		        {% assign domain = site.url %}
-		    {% endif %}
-		    <li class="shake-slow"><a href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %}target="_blank" rel="noopener noreferrer"{% endif %}>{{ link.title }}</a></li>
-		  {% endfor %}
 		</ul><!-- /.dl-menu -->
 	</nav><!-- /.dl-menuwrapper -->
