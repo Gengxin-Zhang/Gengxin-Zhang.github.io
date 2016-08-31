@@ -8,7 +8,6 @@ excerpt: "38级毕业生致敬母校"
 mine: true
 comments: true
 image: "http://images2015.cnblogs.com/blog/831801/201608/831801-20160829154329074-419570610.jpg"
-undone: true
 ---
 #### 啥都不说，先放一波视频：
 (视频引自b站.手机访客无法观看请<a href="http://www.bilibili.com/video/av6064021/">点击这里</a>跳转至bilibili动画)
