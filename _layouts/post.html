@@ -39,7 +39,9 @@ layout: compress
                     </a>
                 </div>
                 {{ content }}
-
+                {{% if page.undone %}}
+                <h2>本文未完结，持续更新中……</h2>
+                {{% endif %}}
                 <div class="entry-meta">
                 {% include meta.html %}
                 </div>
