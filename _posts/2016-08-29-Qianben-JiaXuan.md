@@ -5,6 +5,7 @@ tag:
 title: "千本稼轩"
 title2: "38级毕业生致敬母校"
 excerpt: "38级毕业生致敬母校"
+date:   2016-08-29
 mine: true
 comments: true
 image: "http://images2015.cnblogs.com/blog/831801/201609/831801-20160902151744855-1894693981.jpg"

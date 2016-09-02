@@ -2,6 +2,7 @@
 layout: post
 tag:
 - Python
+date:   2016-08-25
 title: "Python爬取糗事百科段子"
 excerpt: "Python实现爬虫爬取糗事百科段子\n——一个小小的爬虫入门"
 image: "http://images2015.cnblogs.com/blog/831801/201609/831801-20160902151300605-2001776054.jpg"

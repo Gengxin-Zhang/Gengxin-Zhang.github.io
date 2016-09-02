@@ -2,13 +2,13 @@
 layout: about
 title: About Gengxin
 tags: [about, Jekyll, Gengxin]
-date: 2016-08-21
+date: 2016-09-2
 comments: false
 ---
 
 ## Gengxin-Zhang
 
-<img src=" http://images2015.cnblogs.com/blog/831801/201609/831801-20160902171941011-1718858752.jpg" style="margin:auto" ></img>
+<img src=" http://images2015.cnblogs.com/blog/831801/201609/831801-20160902171941011-1718858752.jpg" style="margin:auto" >
 
 我喜欢别人叫我Gengxin，偶尔叫叫Zhangone 😂
 
@@ -16,7 +16,7 @@ comments: false
 
 在学校，我是一名OIer，是一名苦逼学生狗；出了学校，我是陌讯科技软件工程师，一名伪Hacker，一名Geek，一名爱发发小牢骚的渣渣程序员。
 
-这个小站是我第二个版本。它基于jekyll，搭建在Github Page。主题fork自Taylan Tatlı的Moon，我对这个主题的有所改动，具体见这篇博客：<a href="http://zhangone.top/Mysite-is-Buding/"><strong>关于这个小站的建设</strong></a>。
+这个小站是我第二个版本。它基于jekyll，搭建在Github Page。主题fork自Taylan Tatlı的Moon，我对这个主题的有所改动，具体见这篇博客：<a href="http://zhangone.top/Mysite-is-Buding/" target="\_blank"><strong>关于这个小站的建设</strong></a>。
 
 我还是一名3D打印机玩家，喜欢模型收集和打印。
 
@@ -30,7 +30,7 @@ comments: false
 
 我喜欢收集。收集电子元件，收集好的技术文章，收集好用的软件，收集好看的图片。我喜欢收集所有美好的事物。
 
-<img src=" http://images2015.cnblogs.com/blog/831801/201609/831801-20160902171941011-1718858752.jpg" style="margin:auto" ></img>
+<img src=" http://images2015.cnblogs.com/blog/831801/201609/831801-20160902171941011-1718858752.jpg" style="margin:auto" >
 
 关于编程，我最喜欢的语言是Python。人生苦短，我用Python。除了用Python，我还会用C/C++来完成OI题目，用Ruby开发一点小东西，用Java写一点小的安卓程序。在Ruby和Java上，我还是个新手。
 

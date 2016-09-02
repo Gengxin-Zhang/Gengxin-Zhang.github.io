@@ -3,6 +3,7 @@ layout: post
 title: "关于这个小站的建设"
 tag:
 - project
+date:   2016-09-2
 excerpt: "这篇博客将会详细的讲一下Gengxin这个小站的建设过程"
 comments: true
 image: "http://images2015.cnblogs.com/blog/831801/201609/831801-20160902151427980-711350896.jpg"
