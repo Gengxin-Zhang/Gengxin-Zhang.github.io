@@ -6,6 +6,8 @@ tag:
 excerpt: "这篇博客将会详细的讲一下Gengxin这个小站的建设过程"
 comments: true
 image: "http://images2015.cnblogs.com/blog/831801/201608/831801-20160825080336089-1712076279.png"
+feature: http://images2015.cnblogs.com/blog/831801/201609/831801-20160902102658949-1383305150.jpg
+undone: true
 ---
 ![Gengxin的小站-home](http://images2015.cnblogs.com/blog/831801/201608/831801-20160825080336089-1712076279.png)
 
@@ -32,4 +34,24 @@ image: "http://images2015.cnblogs.com/blog/831801/201608/831801-2016082508033608
 
 ## 对于原Theme的改动：
 
-这个博客用的是
+这个博客用的是Github上大神的Moon。地址在这里:
+
+<a href="https://github.com/TaylanTatli/Moon">https://github.com/TaylanTatli/Moon</a>
+
+抖动效果用的是这个:
+
+<a href="https://github.com/elrumordelaluz/csshake">https://github.com/elrumordelaluz/csshake</a>
+
+#### 改动如下：
+
+  * 修改站点Home页标题字体顺序大小
+  * 修改Home页白色部分直角为圆角
+  * 修改导航栏宽度，修改导航栏About外观
+  * 站点logo、首页社交网站链接按钮、导航栏列表增加抖动效果
+  * 添加指定页面指定背景功能
+  * 添加postlist页主题图片功能
+  * social button添加对知乎、Bilibili支持
+  * 添加undone选项，未完成文章最底部显示“本文未完结，持续更新中……”
+  * 添加mine板块
+  * 添加Music板块，实现网页音乐播放器功能（建设中）
+  * 添加
