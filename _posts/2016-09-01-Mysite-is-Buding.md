@@ -73,6 +73,6 @@ feature: http://images2015.cnblogs.com/blog/831801/201609/831801-201609021026589
 
 最后感谢曾经帮助过我的人，翔哥、Zhu-Zhi-Hao、还有一直陪伴我关心我帮我找图的syy……
 
-如果没有你们，就没有现在的我。衷心的感谢你们的帮助。
+如果没有你们，就没有现在的我。衷心的感谢你们无价的帮助。
 
 <p align="right"><strong>Gengxin，2016-09-02， in Li-er.</strong></p>
