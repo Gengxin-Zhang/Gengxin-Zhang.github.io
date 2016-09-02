@@ -51,7 +51,7 @@ h3.title a {
 		background: $white;
 		color: $color_shark;
 		a {
-			@include font-rem(22);
+			@include font-rem(26);
 			text-decoration: none;
 			color: $color_shark;
 			padding: 0,1rem;
@@ -63,7 +63,7 @@ h3.title a {
 		p {
 			padding: 0,2rem;
 			font-weight: lighter;
-			@include font-rem(18);
+			@include font-rem(20);
 		}
 	}
 }
