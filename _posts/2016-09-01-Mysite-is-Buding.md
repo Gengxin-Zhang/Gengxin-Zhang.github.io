@@ -72,4 +72,4 @@ feature: http://images2015.cnblogs.com/blog/831801/201609/831801-201609021026589
 
 如果没有你们，就没有现在的我。衷心的感谢你们的帮助。
 
-<p align="right">Gengxin，2016-09-02， in Li-er.</p>
+<p align="right"><strong>Gengxin，2016-09-02， in Li-er.</strong></p>
