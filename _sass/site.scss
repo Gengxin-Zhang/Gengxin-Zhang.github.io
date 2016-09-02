@@ -141,6 +141,8 @@ body {
 	padding-left: 0;
 	a {
 		color: #FF0000;
+		text-decoration: none;
+		font-weight: bolder;
 		&:hover {
 				color: $red;
 		}
