@@ -139,8 +139,11 @@ body {
 	text-align: center;
 	color: lighten($color_tuatara,60);
 	padding-left: 0;
-	a:hover{
+	a {
 		color: #FF0000;
+		&:hover {
+				color: $red;
+		}
 	}
 }
 .entry-meta {
