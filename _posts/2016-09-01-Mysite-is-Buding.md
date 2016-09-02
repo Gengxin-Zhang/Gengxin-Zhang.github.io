@@ -8,7 +8,10 @@ comments: true
 image: "http://images2015.cnblogs.com/blog/831801/201608/831801-20160825080336089-1712076279.png"
 feature: http://images2015.cnblogs.com/blog/831801/201609/831801-20160902102658949-1383305150.jpg
 ---
-![Gengxin的小站-home](http://images2015.cnblogs.com/blog/831801/201608/831801-20160825080336089-1712076279.png)
+<figure>
+	<a href="http://images2015.cnblogs.com/blog/831801/201608/831801-20160825080336089-1712076279.png"><img src="http://images2015.cnblogs.com/blog/831801/201608/831801-20160825080336089-1712076279.png"></a>
+  网站现在的样子
+</figure>
 
 ## 序
 如果要讲这个博客的历史，估计要从好久好久以前说起。
