@@ -5,11 +5,11 @@ tag:
 - project
 excerpt: "这篇博客将会详细的讲一下Gengxin这个小站的建设过程"
 comments: true
-image: "http://images2015.cnblogs.com/blog/831801/201608/831801-20160825080336089-1712076279.png"
-feature: http://images2015.cnblogs.com/blog/831801/201609/831801-20160902102658949-1383305150.jpg
+image: "http://images2015.cnblogs.com/blog/831801/201609/831801-20160902151427980-711350896.jpg"
+feature: http://images2015.cnblogs.com/blog/831801/201609/831801-20160902151336121-661904737.jpg
 ---
 <figure>
-	<a href="http://images2015.cnblogs.com/blog/831801/201608/831801-20160825080336089-1712076279.png"><img src="http://images2015.cnblogs.com/blog/831801/201608/831801-20160825080336089-1712076279.png"></a>
+	<a href="http://images2015.cnblogs.com/blog/831801/201609/831801-20160902151433511-1879871742.jpg"><img src="http://images2015.cnblogs.com/blog/831801/201609/831801-20160902151433511-1879871742.jpg"></a>
   <figcaption>网站现在的样子</figcaption>
 </figure>
 
@@ -22,7 +22,7 @@ feature: http://images2015.cnblogs.com/blog/831801/201609/831801-201609021026589
 很快，在luogu群里的几位dalao推荐下，我用上了Daocloud。Daocloud真心是个适合新手的好地方。如果不打算长期运行，只是尝尝鲜的话，2x容器的免费配额绝对够了。令人激动的是，没两天，我居然非常幸运的得到了Daocloud赠送的50元礼券。加上绑定微信号送的1x容器，绝对够我的WordPress小站运行两个月了。这两个月期间，我不断的找主题，找插件，一点一点的美化这个小站。
 
 <figure>
-	<a href="http://images2015.cnblogs.com/blog/831801/201609/831801-20160902103446074-703359108.png"><img src="http://images2015.cnblogs.com/blog/831801/201609/831801-20160902103446074-703359108.png"></a>
+	<a href="http://images2015.cnblogs.com/blog/831801/201609/831801-20160902151440496-1172087590.jpg"><img src="http://images2015.cnblogs.com/blog/831801/201609/831801-20160902151440496-1172087590.jpg"></a>
   <figcaption>我的第一个网站</figcaption>
 </figure>
 
@@ -52,8 +52,8 @@ feature: http://images2015.cnblogs.com/blog/831801/201609/831801-201609021026589
 #### 对比图：
 
 <figure class="half">
-	<a href="http://images2015.cnblogs.com/blog/831801/201609/831801-20160902105730949-445474566.png"><img src="http://images2015.cnblogs.com/blog/831801/201609/831801-20160902105730949-445474566.png"></a>
-	<a href="http://images2015.cnblogs.com/blog/831801/201609/831801-20160902105956574-1306916917.png"><img src="http://images2015.cnblogs.com/blog/831801/201609/831801-20160902105956574-1306916917.png"></a>
+	<a href="http://images2015.cnblogs.com/blog/831801/201609/831801-20160902151509652-244777563.jpg"><img src="http://images2015.cnblogs.com/blog/831801/201609/831801-20160902151509652-244777563.jpg"></a>
+	<a href="http://images2015.cnblogs.com/blog/831801/201609/831801-20160902151458449-1634550630.jpg"><img src="http://images2015.cnblogs.com/blog/831801/201609/831801-20160902151458449-1634550630.jpg"></a>
 	<figcaption>图片白色部分大小不一样是因为我截图的屏幕分辨率较低</figcaption>
 </figure>
 

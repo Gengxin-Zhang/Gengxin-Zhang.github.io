@@ -7,10 +7,10 @@ tag:
 - test
 comments: true
 mine: true
-image: "http://images2015.cnblogs.com/blog/831801/201608/831801-20160825080336089-1712076279.png"
+image: "http://images2015.cnblogs.com/blog/831801/201609/831801-20160902151408902-293626532.jpg"
 ---
 
-![Test Image](http://images2015.cnblogs.com/blog/831801/201608/831801-20160825080432011-864798611.png)
+![Test Image](http://images2015.cnblogs.com/blog/831801/201609/831801-20160902151408902-293626532.jpg)
 
 <button class="btn shake shake-slow"> Test </button>
 
@@ -58,7 +58,7 @@ tags = jieba.analyse.extract_tags(content, topK=topK, withWeight=True)
 words = []
 
 for tag in tags:
-    words.append( (tag[0],tag[1]*1000))
+    words.append( (tag[0],tag[1]\*1000))
 
 wordcloud = WordCloud(font_path="方正喵呜体.ttf").fit_words(words)
 alice_coloring = np.array(Image.open("xhr.jpeg"))
