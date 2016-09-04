@@ -210,11 +210,11 @@ header .entry-meta {
     @include transition(.5s);
     @media #{$small} {
 			color: white;
-			padding: 4em;
+			padding: 0em;
 			margin-left: 0rem;
 			margin-right: 0rem;
 			margin-top: 0rem;
-			border-radius: 3px 3px 0 0;
+			border-radius: 0px 0px 0 0;
 			background-color: rgba($black, 0.6);
 			background-blend-mode: multiply;
 			background-position: center center;
