@@ -209,7 +209,15 @@ header .entry-meta {
 .feature {
     @include transition(.5s);
     @media #{$small} {
-        background-image: none !important;
+			color: white;
+			padding: 4em;
+			margin-left: 0rem;
+			margin-right: 0rem;
+			margin-top: 0rem;
+			border-radius: 3px 3px 0 0;
+			background-color: rgba($black, 0.6);
+			background-blend-mode: multiply;
+			background-position: center center;
     }
     @media #{$medium} {
         color: white;
