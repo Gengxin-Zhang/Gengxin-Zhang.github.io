@@ -32,7 +32,7 @@ comments: false
 
 <img src=" http://images2015.cnblogs.com/blog/831801/201609/831801-20160902171941011-1718858752.jpg" style="margin:auto" >
 
-关于编程，我最喜欢的语言是Python。人生苦短，我用Python。除了用Python，我还会用C/C++来完成OI题目，用Ruby开发一点小东西，用Java写一点小的安卓程序。在Ruby和Java上，我还是个新手。
+关于编程，我最喜欢的语言是Python。人生苦短，我用Python。除了用Python，我还会用C/C++来完成OI题目，用Ruby开发一点小东西，用Java写过一点小的安卓程序。在Ruby和Java上，我还是个新手。
 
 最近王健林说了，很多年轻人，有自己目标，比如想做首富是对的，奋斗的方向，但是最好先定一个小目标，比方说我先挣它一个亿。那我也就跟个风，我顶一个小目标，先写他个一亿行代码！
 
