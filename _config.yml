@@ -14,7 +14,7 @@ locale:             en_US
 url:                http://zhangone.top
 
 # Jekyll
-permalink:          /:title/
+permalink:          /blog/:year/:month/:day/:title
 markdown:           kramdown
 highlighter:        rouge
 kramdown:
