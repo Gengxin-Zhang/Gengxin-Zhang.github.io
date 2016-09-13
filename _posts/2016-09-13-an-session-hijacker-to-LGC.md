@@ -32,7 +32,7 @@ Kali系统下ettercap是预置的，所以我不需要额外的安装。
 好的，既然LGC在浏览网页，那就来个HTML注入好了。“Gengxin 想 ban 你 哦”。  
 我们首先要写一个过滤脚本。  
 
-{% highlight %}
+{% highlight cpp %}
 if (ip.proto == TCP && tcp.dst == 80)
 {
     if (search(DATA.data, "Accept-Encoding"))
