@@ -27,7 +27,7 @@ tag:
 
 Kali系统下ettercap是预置的，所以我不需要额外的安装。
 <figure>
-  <a href=""><img src=""></a>
+  <a href="http://images2015.cnblogs.com/blog/831801/201609/831801-20160913211455070-1683114145.jpg"><img src="http://images2015.cnblogs.com/blog/831801/201609/831801-20160913211455070-1683114145.jpg"></a>
 </figure>
 好的，既然LGC在浏览网页，那就来个HTML注入好了。“Gengxin 想 ban 你 哦”。  
 我们首先要写一个过滤脚本。  
@@ -60,8 +60,12 @@ OK，把这段代码保存为`banLGC.filter`.
 etterfilter banLGC.filter -o banLGC.ef
 ~~~
 
-zhanwei
+接着，我们在路由器后台找到LGC的IP地址，然后用我们刚刚编译好的脚本，发起对LGC的中间人攻击
 
 ~~~
 ettercap -i eth0 -Tq -M arp:remote /192.168.31.106// /192.168.31.1// -F alert.ef
 ~~~
+
+猛然间，不远处的LGC发出了杠铃般的笑声————Gengxin！你要做什么！我网速是怎么了！！   
+Gengxin开心地扑了过去，心情是这样的  
+![]()
