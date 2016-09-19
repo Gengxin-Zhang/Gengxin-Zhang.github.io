@@ -73,8 +73,8 @@ ettercap -i eth0 -Tq -M arp:remote /192.168.31.106// /192.168.31.1// -F banLGC.e
 </figure>
 
 猛然间，不远处的LGC发出了杠铃般的笑声————Gengxin！你要做什么！我网速是怎么了！！   
-  
-然后基友就一上午没有理我QAQ'A'Q  
+
+然后基友就一上午没有理我Q'A'Q  
 
 最后Gengxin还是跟系又说明了情况，然后道了歉  
 
