@@ -27,7 +27,9 @@ feature: http://images2015.cnblogs.com/blog/831801/201609/831801-201609192133295
 等等，好像出错了！  
 Gengxin一拍脑袋…… 哦对！我还用了一大堆库呢！！赶紧pip install开起来  
 让我想想，当时都用过什么呢？？哦~ 处理头像PILLOW不能少，用户分析用了Wordcloud做标签云，异步+定时任务用了django-celery，支持Markdown用了django-makedown-deux……嗯……对pip install……
-
+<figure>
+  <a href="http://images2015.cnblogs.com/blog/831801/201609/831801-20160919213329590-1081767775.png"><img src="http://images2015.cnblogs.com/blog/831801/201609/831801-20160919213329590-1081767775.png"></a>
+</figure>
 好了，服务姬终于不再报错了~  
 
 ## Two · Samba
