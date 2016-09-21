@@ -76,6 +76,6 @@ ettercap -i eth0 -Tq -M arp:remote /192.168.31.106// /192.168.31.1// -F banLGC.e
 
 然后基友就一上午没有理我Q'A'Q  
 
-最后Gengxin还是跟系又说明了情况，然后道了歉  
+最后Gengxin还是跟他又说明了情况，然后道了歉  
 
 然后就没有然后了  
