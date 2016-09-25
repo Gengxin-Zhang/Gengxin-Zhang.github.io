@@ -4,7 +4,7 @@ title: 在服务姬上搞事情
 tag:
 - project
 date: 2016-09-19
-excerpt: "今天教练批下来一台闲置电脑给Gengxin，于是我用它搭起了服务器~~姬~~"
+excerpt: "今天教练批下来一台闲置电脑给Gengxin，于是我用它搭起了服务器<del>姬</del>"
 image: http://images2015.cnblogs.com/blog/831801/201609/831801-20160919213506340-1828196577.png
 feature: http://images2015.cnblogs.com/blog/831801/201609/831801-20160919213329590-1081767775.png
 ---
@@ -42,8 +42,45 @@ sudo apt update
 ~~~
 
 ~~不用说也是这个~~  
+
 接着，安装我们的Samba。
 
 ~~~
 sudo apt install samba
 ~~~
+
+等待等待……  
+等samba安装完了，打开配置文件：
+
+~~~
+sudo vim /etc/samba/smb.conf
+~~~
+
+在下面添加：
+
+~~~
+[LierOJ Path Server]
+comment = All Printers
+security = share
+path = /home/share
+read only = no
+writeable = yes
+guest ok = yes
+only guest = yes
+browseable = yes
+public = yes
+~~~
+
+注： 如果是要允许所有人访问的话，security一定要设置成share  
+
+OK，重启samba服务
+
+~~~
+sudo service smbd restart
+~~~
+
+然后就可以在同局域网的电脑`网络`下找到我们服务器的名字，点击就可以进入我们的文件服务器了
+
+<figure>
+  <a href="http://images2015.cnblogs.com/blog/831801/201609/831801-20160925195338592-1970098819.png"><img src="http://images2015.cnblogs.com/blog/831801/201609/831801-20160925195338592-1970098819.png"></a>
+</figure>
