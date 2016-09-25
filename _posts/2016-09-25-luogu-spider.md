@@ -31,8 +31,6 @@ import urllib
 import urllib2
 import random
 import re
-
-
 def get_header(pid):
     headers=[
     "Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko",
@@ -42,12 +40,10 @@ def get_header(pid):
     ]
     Referer='http://www.luogu.org/problem/lists?name=&orderitem=&order=&tag=&page='+str((pid-1000)/50+1)
     return {'User-Agent':headers[random.randint(0,3)],'Referer':Referer}
-
 def get_html(url,pid):
     req = urllib2.Request(url=url, headers=get_header(pid))
     response = urllib2.urlopen(req)
     return response.read()
-
 def main():
     pidlist = range(1001,3392)
     num = len(pidlist)
@@ -56,10 +52,8 @@ def main():
         pidlist.remove(pid)
         url = "http://www.luogu.org/problem/show?pid="+str(pid)
         html = get_html(url,i)
-
 if __name__ == '__main__':
     main()
-
 {% endhighlight %}
 
 这就是Gengxin的小爬虫的基本框架了。因为是新手嘛，也不知道太多，比较习惯把获取html啊什么的放到单独的函数里。因为之前在洛谷群里见过有人因为作死被kkk封ip的事件，即使没有发现有防爬虫机制，我也小心地加上了headers，请求里带上`User-Agent` 和 `Referer`。
