@@ -65,26 +65,7 @@ if __name__ == '__main__':
 这就是Gengxin的小爬虫的基本框架了。因为是新手嘛，也不知道太多，比较习惯把获取html啊什么的放到单独的函数里。因为之前在洛谷群里见过有人因为作死被kkk封ip的事件，即使没有发现有防爬虫机制，我也小心地加上了headers，请求里带上`User-Agent` 和 `Referer`。
 运行程序，看了输出，不错，题目信息都包含在了html。
 其他的，都是些小爬虫基本的东西，Gengxin就先不再详细的说了，代码放在Gengxin的Github上了，欢迎各位大神看看~~（临幸）~~，提点意见~  
-然后是正则表达式：
-~~~ python
-titler   = r'<div\ class=\"lg\-toolbar\"\ data\-am\-sticky.+?</strong></a> P.+?\ (.+?)</h1.+?/div>'
-        beijingr = r'<h2>题目背景</h2>(.+?)<h2>题目描述</h2>'
-        miaoshur = r'<h2>题目描述</h2>(.+?)<h2>输入输出格式</h2>'
-        ingeshir = r'<strong>输入格式：</strong>(.+?)<strong>输出格式：</strong>'
-        outgeshir= r'<strong>输出格式：</strong>(.+?)<h2>输入输出样例</h2>'
-        inyanglir = r'<strong>输入样例#1：</strong>.+?<pre>(.+?)</pre.+?</div>'
-        outyanglir= r'<strong>输出样例#1：</strong>.+?<pre>(.+?)</pre.+?</div>'
-        shuomingr= r'<h2>说明</h2>(.+?)</div>'
-        downr = r'<li><span\ class=\"lg-bignum-num\">(.+?)</span><span\ class=\"lg-bignum-text\">通过</span></li>'
-        putr  = r'<span class="lg-bignum-text">通过</span></li><li><span\ class=\"lg-bignum-num\">(.+?)</span><span\ class=\"lg-bignum-text\">提交</span></li>'
-        nandur = r'<li><strong>难度</strong.+?span class=\"lg-right\"><span class=.+?>(.+?)</span>'
-        putuserr = r'<li><strong>题目提供者</strong><span\ class=\"lg-right\">(.+?)</span></li>'
-        tagsr = r'<li><strong>标签</strong>(.+?)</li>'
-        yearr  = r'<span\ class=\"am-badge\ am-radius\ lg-bg-green\ \">([0-9]+)</span>'
-        tagr  = r'<span\ class=\"am-badge\ am-radius\ lg-bg-pink\ am-hide\">(.+?)</span>'
-        saixir = r'<span class="am-badge am-radius lg-bg-bluelight ">(.+?)</span>'
-~~~
-很多地方非常啰嗦，有很多不必要的东西。（毕竟我只是个小萌新）。
+
 经过好长时间的改啊改，终于，爬虫算是写好了。所有数据都能准确获取，而且对异常情况做出了必要的处理。  
 好了，加上数据库相关的代码，运行。  
 经过四个多小时的努力，Gengxin的小爬虫，终于爬到了洛谷的大部分题目。这里之所以说是大部分，是因为在前几次试着爬的时候，发现洛谷上居然有几个特殊的题目，没有描述、输入输出样例，或者直接是NOIP初赛题目……这些题目都被Gengxin的小爬虫pass掉了。
