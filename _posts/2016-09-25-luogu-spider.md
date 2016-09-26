@@ -31,6 +31,7 @@ import urllib
 import urllib2
 import random
 import re
+
 def get_header(pid):
     headers=[
     "Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko",
@@ -40,10 +41,12 @@ def get_header(pid):
     ]
     Referer='http://www.luogu.org/problem/lists?name=&orderitem=&order=&tag=&page='+str((pid-1000)/50+1)
     return {'User-Agent':headers[random.randint(0,3)],'Referer':Referer}
+
 def get_html(url,pid):
     req = urllib2.Request(url=url, headers=get_header(pid))
     response = urllib2.urlopen(req)
     return response.read()
+
 def main():
     pidlist = range(1001,3392)
     num = len(pidlist)
@@ -52,6 +55,7 @@ def main():
         pidlist.remove(pid)
         url = "http://www.luogu.org/problem/show?pid="+str(pid)
         html = get_html(url,i)
+
 if __name__ == '__main__':
     main()
 {% endhighlight %}
@@ -68,10 +72,58 @@ if __name__ == '__main__':
   <a href="http://images2015.cnblogs.com/blog/831801/201609/831801-20160925213913553-1874832292.png"><img src="http://images2015.cnblogs.com/blog/831801/201609/831801-20160925213913553-1874832292.png"></a>
 </figure>  
 
-很好，总共爬取了2356道题目(好像计数是从0开始的)。
+很好，总共爬到了2356道题目(好像计数是从0开始的)。
 我们的数据库，从2kb变成了3.97M
 <figure>
   <a href="http://images2015.cnblogs.com/blog/831801/201609/831801-20160925214244646-2017303201.png"><img src="http://images2015.cnblogs.com/blog/831801/201609/831801-20160925214244646-2017303201.png"></a>
 </figure>  
 
 好了，爬取的过程算是结束了。接着就要看能从这些数据里得到些什么了。
+
+作为一个OJ，比较重要的一个东西就是提交量。那么我们提取提交量大于10000的题目：
+<figure>
+  <a href="http://images2015.cnblogs.com/blog/831801/201609/831801-20160926081743141-177896912.png"><img src="http://images2015.cnblogs.com/blog/831801/201609/831801-20160926081743141-177896912.png"></a>
+</figure>   
+有12道……意料之中  
+一共有多少道通过量大于10000的题目呢？
+好像……只有一道。不用猜也是A+B Problem……  
+那么通过率超过50%的题目有多少道呢？
+<figure>
+  <a href="http://images2015.cnblogs.com/blog/831801/201609/831801-20160926082925360-539206536.png"><img src="http://images2015.cnblogs.com/blog/831801/201609/831801-20160926082925360-539206536.png"></a>
+</figure>   
+出乎我的意料……居然有379道……占到了总题目数量的百分之十六  
+而在这379道题目里：
+-  尚无评定 155
+-  普及- 72
+-  普及/提高- 59
+-  入门难度 30
+-  提高+/省选- 29
+-  普及+/提高 22
+-  省选/NOI- 12
+
+可以看出，在通过率50%的题目里，通过题目数是大体上是跟题目难度成正比的。  
+那题目的提供人呢？查询表明，题库里题目为261位用户提供，其中最多的是[洛谷OnlineJudge]，一共649道题目，第二是[该用户不存在]~~我一直没搞懂这个是不是个用户名~~，一共493道。提供题目数超过100的总共有四人，而绝大部分人(144)提供数为1道，剩下的也绝大多数是个位数。
+<figure>
+  <a href="http://images2015.cnblogs.com/blog/831801/201609/831801-20160926095952266-195336638.png "><img src="http://images2015.cnblogs.com/blog/831801/201609/831801-20160926095952266-195336638.png "></a>
+  <figcaption>提供题目超过100的用户~~不小心多截了一个~~</figcaption>
+</figure>  
+
+如果把提交数超过10的用户按照提交数目做成标签云，大概就是这个样子：
+<figure>
+  <a href="http://images2015.cnblogs.com/blog/831801/201609/831801-20160926112951735-832040142.png"><img src="http://images2015.cnblogs.com/blog/831801/201609/831801-20160926112951735-832040142.png"></a>
+  <figcaption>提交数超过10的用户</figcaption>
+</figure>  
+当然，为了平衡一下，我对最大的字体做了限制……要不然整个图片上就基本看不到除了前两名以外的用户名辣
+
+看完了用户提交数和贡献用户，我们再来看看题面。对所有题目题面进行词频分析发现，OI界的小明——农夫John和他的Cows的出现频率确实比较大……这里标签云可以说明一切：
+<figure>
+  <a href="http://images2015.cnblogs.com/blog/831801/201609/831801-20160925192053469-2080465632.jpg"><img src="http://images2015.cnblogs.com/blog/831801/201609/831801-20160925192053469-2080465632.jpg"></a>
+</figure>
+在词频统计上，我是用的python的jieba库，分词的时候用了它的默认字典，也没有做词性筛选，所以好像有很多奇怪的东西混进来了……在这个标签云里好像并不能很明显的看出什么来。那么我们再试一个：
+<figure>
+  <a href="http://images2015.cnblogs.com/blog/831801/201609/831801-20160925195526146-804080285.jpg"><img src="http://images2015.cnblogs.com/blog/831801/201609/831801-20160925195526146-804080285.jpg"></a>
+</figure>
+我对关键词的权值进行了一些处理，所以这个标签云里，结果还是比较明显的，像是Jhon啊，奶牛啊这几个关键词可以说是非常突出。  
+
+
+好了，Gengxin的第一次“大数据分析”到这里就差不多结束了~~其实是我也胡诌不下去了~~作为第一次尝试，Gengxin觉得做的还是可以的~~(傲娇脸)~~，虽然比起知乎上各路大神们还是差得很远Q'A'Q……加油吧，还有不到一个月就要NOIP初赛，都高二了，再不拼一拼，就没机会了。
