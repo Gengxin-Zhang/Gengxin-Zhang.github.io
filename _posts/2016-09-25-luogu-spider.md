@@ -89,7 +89,7 @@ if __name__ == '__main__':
 好像……只有一道。不用猜也是A+B Problem……  
 那么通过率超过50%的题目有多少道呢？
 <figure>
-  <a href="http://images2015.cnblogs.com/blog/831801/201609/831801-20160926082925360-539206536.png"><img src="http://images2015.cnblogs.com/blog/831801/201609/831801-20160926082925360-539206536.png"></a>
+  <a href="http://images2015.cnblogs.com/blog/831801/201609/831801-20160926114917750-491178503.png"><img src="http://images2015.cnblogs.com/blog/831801/201609/831801-20160926114917750-491178503.png"></a>
 </figure>   
 出乎我的意料……居然有379道……占到了总题目数量的百分之十六  
 而在这379道题目里：
