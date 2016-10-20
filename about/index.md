@@ -14,7 +14,7 @@ comments: false
 
 我是一名高中狗，就读于山东省济南历城二中，一所在本地还算不错的中学。
 
-在学校，我是一名OIer，是一名苦逼学生狗；出了学校，我是陌讯科技软件工程师，一名伪Hacker，一名Geek，一名爱发发小牢骚的渣渣程序员。
+在学校，我是一名OIer，是一名苦逼学生狗；出了学校，我是一名伪Hacker，一名Geek，一名爱发发小牢骚的渣渣程序员。
 
 这个小站是我第二个版本。它基于jekyll，搭建在Github Page。主题fork自Taylan Tatlı的Moon，我对这个主题的有所改动，具体见这篇博客：<a href="http://zhangone.top/posts/2016/09/02/Mysite-is-Buding" target="\_blank"><strong>关于这个小站的建设</strong></a>。
 
