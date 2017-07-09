@@ -11,7 +11,7 @@ about_background:   'http://images2015.cnblogs.com/blog/831801/201609/831801-201
 page_background:    'http://images2015.cnblogs.com/blog/831801/201609/831801-20160902151319433-539227312.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
-url:                http://zhangone.top
+url:                http://Gengxin-Zhang.github.io/
 
 # Jekyll
 permalink:          /posts/:year/:month/:day/:title
